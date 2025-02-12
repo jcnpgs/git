@@ -46,3 +46,9 @@ Para fusionar ramas de GIT:
 ````shell
     git merge nombre_rama (se mergea nombre_rama sobre la rama en la que estemos actualmente)
 ````
+
+Para ver el arbol de commits:
+````shell
+    git log    , o también:
+    git log --graph
+````
