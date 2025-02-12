@@ -34,7 +34,12 @@ Para saber el estado de GIT:
 
 Para crear una rama GIT:
 ````shell
-    git branch nombre_rama
+    git branch nombre_rama (a partir de la rama en la que estemos actualmente)
+````
+
+Para ver todas las ramas GIT que tenemos:
+````shell
+    git branch (marca con un * la rama actual)
 ````
 
 Para activar una rama GIT:
