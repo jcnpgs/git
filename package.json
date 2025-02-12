@@ -1,0 +1,23 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "La primera vez que usamos GIT en una máquina debemos configurar el user y el email y comprobarlo.\r Las ordenes son:\r ````shell\r     git config --global user.name nombre_de_usuario_de_GitHub (entre comillas si tiene espacios)\r     git config --global user.email email_de_usuario_de_Github\r ````",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcnpgs/git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcnpgs/git/issues"
+  },
+  "homepage": "https://github.com/jcnpgs/git#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
