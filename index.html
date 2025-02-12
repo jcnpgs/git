@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form-submit" action="procesar.php">
+        <div>
+            <label for="intropais">Introduce un pais</label>
+            <input id="intropais" type="text">
+        </div>
+        <button id="btn-submit" type="submit">Enviar</button>
+    </form>
+    <div id="display"></div>
+    <script>
+        const intropais = document.getElementById("intropais");
+        const formSubmit = document.getElementById("form-submit");
+        formSubmit.addEventListener("submit", function(e) {
+            // e.preventDefault();
+            let pais = intropais.value;
+            // if (confirm("Está ud. seguro de querer ir a " + pais)) {
+            if (pais) {
+                document.getElementById("display").innerHTML = "Está ud. en " + pais;
+            }
+            else {
+                document.getElementById("display").innerHTML = "Es ud. un soso";
+            }
+        })
+    </script>
+</body>
+</html>
